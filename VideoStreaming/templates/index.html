@@ -1,1 +1,14 @@
-
+<html>
+  <head>
+    <title>Video Streaming Demonstration</title>
+  </head>
+  <body style="background-color:powderblue;">
+    <h1 style="color:red;text-align:center;">One Shot Face Recognition System</h1>
+    <video id="video" width="500" height="0" autoplay></video>
+    <img id="bg" src="{{ url_for('video_feed') }} "width="800" height="600">
+    <h1 align="center">Please ensure your face is within the marked boxes</h1>
+    <a href="http://0.0.0.0:5000/answer">
+       <button type="button" style="background-color:yellow;margin:auto;display:block">VERIFY</button>
+     </a>
+  </body>
+</html>
